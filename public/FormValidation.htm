@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Form Validation Example</title>
+    <link id="Link1" rel="stylesheet"  href="FormValidation.css" type="text/css" />
+    <script type="text/javascript" src="js/FormValidation.js"></script>  
+</head>
+<body>
+<form name="form1" id="form1" method="post" action="formcheck.php">
+Preferred User Name: <input id="UserName" type="text"  onblur="Validate('UserName')" />
+<br/>
+<span id="span"></span>
+<br/>
+First Name:<input id="FirstName" class="textbox" type="text" />
+<br /><br />
+Last Name:<input id="LastName" class="textbox" type="text" />
+<br /><br />
+Address:<input id="Address" class="textbox" type="text" />
+<br /><br />
+Town/City:<input id="TownCity" class="textbox" type="text" />
+<br /><br />
+Country:<select id="Country" class="textbox" onchange="Change()">
+<option>US</option>
+<option>UK</option>
+</select>
+<br /><br />
+<span id="state">State:</span><input id="Text1" class="textbox" type="text" />
+<br /><br/>
+<span id="zipcode">ZipCode:</span>
+<input id="Text2" class="textbox" type="text" />
+<br /><br />
+<input type="button" value="Click here to submit details" />
+</form>
+</body>
+</html>
+

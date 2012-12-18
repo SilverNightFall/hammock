@@ -1,0 +1,26 @@
+//I used a comparison operator == to show the cart when the cart has 1 item in it
+//I used an if statement to say only show the cart if length is exactly  equal to 1.
+
+
+
+//This tells the notice to hide when a new item was added to the cart
+$("#notice").hide();
+
+//This says if a row with id cart has been added and is equal to 1 row show the cart
+if ($('#cart tr').length == 1) { $('#cart').show('blind', 1000); }
+
+//This finds the id with cart and outputs the html in the cart
+//The j escapes JavaScript
+$('#cart').html("<%=j render @cart %>");
+//This make the most recent item added to the 
+//carts background stay the dark blue, but 
+//change the background to dark pink temerarily, until another item is added
+//or the page is reloaded
+$('#current_item').css({'background-color':'#5E7F8C'}).
+	animate({'background-color':'#8C4F5A'}, 1000);
+
+//I used the jQuery effect hide to hide the cart until there is 1 or more items 
+//in the cart and then I used the jQuery effect to show the cart.  I used blind
+//and 1000 to slowly make the cart appear.  I used .html() to manipulate the 
+//dom and insert the html cart information.  Then I used .css() to keep the 
+//background blue, but then used the jQuery effect animate() to make the background pink briefly. 

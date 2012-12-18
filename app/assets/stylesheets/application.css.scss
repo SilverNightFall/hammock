@@ -1,0 +1,398 @@
+/*
+* This is a manifest file that'll automatically include all the
+* stylesheets available in this directory and any sub-directories.
+* You're free to add application-wide styles to this file and they'll
+* appear at the top of the compiled file, but it's generally better
+* to create a new file per style scope.
+*= require_self
+*= require_tree . 
+*/
+
+.info{
+  margin-bottom: 20px;
+}
+
+#creditcard{
+  display: none;
+}
+
+#check{
+  display:none;
+}
+
+
+#hidden{
+  display:none;
+}
+.sale p{
+  margin-left: 0px;
+}
+
+li.the_menu {
+      display: none;
+    }
+
+textarea{
+  background-color: #F2EADF;
+  color: #4C3922;
+}
+
+input {
+  background-color: #F2EADF;
+  color: #4C3922;
+}
+
+label{
+  color: #5e7f8c;
+  font-weight: bold;
+}
+
+#back a{
+  margin-top: 50px;
+}
+
+
+html, body{
+height: 100%;
+}
+
+.clearfooter{
+clear: both;
+}
+
+.footer ul li{
+text-align: center;
+font-size:10px;
+font-family:Verdana;
+width: 40px;
+display:inline;
+position: relative;
+height: 100%;
+}
+
+#copyright{
+text-align: center;
+bottom: 0;
+position: relative;
+width: 100%;
+}
+
+
+h1{
+  color: #5e7f8c;
+}
+
+h2{
+color: #5E7F8C;
+}
+
+h3{
+color: #4C3922;
+}
+
+h4{
+color: #4C3922;
+}
+
+
+
+.sale img{
+  margin: 0px;
+}
+
+.sale ul{ 
+  margin: 0px;
+}
+.sale a{
+width:90px;
+background-color:#D98F9D;
+color:#4C3922;
+text-decoration:none;
+border: none;
+margin-bottom: 10px;
+text-transform: uppercase;
+font-weight:bold;
+text-align: center;
+display: hidden;
+}
+
+#main{
+background-color: #F2EADF;
+}
+.sale{
+background-color: #F2EADF;
+}
+body{
+background-color: #F2EADF;
+}
+
+.sale{
+  float:right;
+}
+.outer{
+padding:10px 10px 20px;
+position:relative;
+height: 200px;
+}
+
+li a span img{
+display:block;
+margin-left: 220px;
+margin-top: -70px;
+}
+
+ul{
+text-align: center;
+list-style: none;
+}
+
+a{
+width:90px;
+padding:5px;
+background-color:#D98F9D;
+color:#4C3922;
+text-decoration:none;
+border: none;
+margin-bottom: 20px;
+text-transform: uppercase;
+font-weight:bold;
+text-align: center;
+margin-top: 20px;
+}
+
+#side a{
+display: block;
+width:90px;
+padding:5px;
+background-color:#D98F9D;
+color:#4C3922;
+text-decoration:none;
+border: none;
+margin-bottom: 10px;
+text-transform: uppercase;
+font-weight:bold;
+text-align: center;
+}
+
+li a span, li a b{
+position:absolute;
+right:24px;
+top:-999em;
+width:300px;
+height:300px;
+}
+
+li a:hover, li.over a:hover{
+background-color: #8C4F5A;
+color: #F2EADF;
+text-align: center;
+text-transform: uppercase;
+border: none;
+visibility:none;
+}
+
+
+
+
+#side a:hover{
+background-color: #8C4F5A;
+color: #F2EADF;
+text-align: center;
+text-transform: uppercase;
+border: none;
+visibility:visible;
+}
+
+#banner{
+background: #A7CBD8;
+position: relative;
+    z-index: 1;
+padding: 10px;
+border-bottom: 2px solid #5e7f8c;
+font: small-caps 40px/40px "Times New Roman", serif;
+color: #F2EADF;
+text-align: center;
+text-shadow: 1px 1px 1px #5e7f8c;
+}
+
+#leftLogo{
+float:left;
+clear:both;
+margin-top: -60px;
+margin-left: -40px;
+margin-bottom: -200px;
+}
+
+
+
+ul li a{
+background-color: #D98F9D;
+font-weight: bold;
+text-transform:uppercase;
+text-align: center;
+border: none;
+}
+
+ul li a:hover{
+background-color: #8C4F5A;
+color: #F2EADF;
+text-align: center;
+text-transform: uppercase;
+border: none;
+}
+
+#notice {
+color: #F2EADF !important;
+border: 2px solid #D98F9D;
+padding: 1em;
+margin-bottom: 2em;
+background: #5E7F8C;
+font: bold smaller sans-serif;
+width: 250px;
+}
+
+
+#main {
+margin-left: 17em;
+ padding: 1em;
+ min-height: 100%;
+ position: relative;
+}
+
+#side {
+width: 15em;
+background: #5E7F8C;
+float: left;
+clear:both;
+padding-top: 180px;
+height: 100%;
+position: relative;
+}
+
+#side form div {
+  display: inline;
+}
+
+#side input {
+  font-size: small;
+}
+
+#cart {
+  font-size: 14px;
+  color: #F2EADF;
+  font-weight:bold;
+  width: 15em;
+background: #5E7F8C;
+float: left;
+clear:both;
+height: 100%;
+position: relative;
+}
+
+#cart table {
+    border-top:    1px dotted #F2EADF;
+    border-bottom: 1px dotted #F2EADF;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+
+
+
+.depot_form fieldset {
+  background: #A7CBD8;
+  border: none;
+}
+
+
+.depot_form legend {
+    color: #F2EADF;
+    background: #5E7F8C;
+    font-family: sans-serif;
+    padding: 0.2em 1em;
+}
+
+.depot_form form {
+  width: 250px;
+}
+
+.depot_form label {
+    width: 5em;
+    float: left;
+    text-align: right;
+    padding-top: 0.2em;
+    margin-right: 0.1em;
+    display: block;
+}
+
+
+.depot_form select, textarea, input {
+    margin-left: 0.5em;
+}
+.depot_form .submit {
+    margin-left: 4em;
+}
+.depot_form br {
+    display: none
+}
+
+.pagination{
+  margin-top: 20px;
+}
+
+.submit2 {  
+   width:90px;
+padding:5px;
+background-color:#D98F9D;
+color:#4C3922;
+text-decoration:none;
+border: none;
+margin-bottom: 10px;
+text-transform: uppercase;
+font-weight:bold;
+text-align: center;
+margin-top: 20px;
+}
+
+.submit2:hover {  
+background-color: #8C4F5A;
+color: #F2EADF;
+text-align: center;
+text-transform: uppercase;
+border: none;
+visibility:visible;
+}
+
+#log{
+  margin-top: 20px;
+  display: block;
+  height: 40px;
+width:90px;
+padding:5px;
+background-color:#A7CBD8;
+color:#F2EADF;
+text-decoration:none;
+border: none;
+margin-bottom: 10px;
+text-transform: uppercase;
+font-weight:bold;
+text-align: center;
+text-shadow: 2px 2px 1px #5e7f8c;
+}
+
+#new{
+  margin-top: -700;
+}
+#sale3{
+  margin-left: 450px;
+  margin-top: -400px;
+}
+
+.sale{
+  position: relative;
+   float: right;
+   left: 0px;
+   width: 200px;
+}
+

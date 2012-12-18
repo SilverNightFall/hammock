@@ -1,0 +1,9 @@
+﻿.textbox
+{
+	position: absolute;
+	left: 100px;
+}
+span#span
+{
+	color: Red;	
+}

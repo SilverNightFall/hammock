@@ -1,0 +1,42 @@
+
+
+.carts, #side #cart {
+  .cart_title {
+    font: 120% bold;
+    color: #F2EADF;
+  }
+
+  
+
+  .item_price, .total_line {
+    text-align: right;
+    color: #F2EADF;
+  }
+
+  .total_line .total_cell {
+    font-weight: bold;
+    border-top: 1px solid #F2EADF;
+  }
+}
+
+.cart_title{
+  margin-left: 40px;
+}
+
+.cart_submit{
+  margin-left: 40px;
+  margin-top: 20px;
+display: block;
+height: 40px;
+width: 90px;
+padding: 5px;
+background-color: #A7CBD8;
+color: #F2EADF;
+text-decoration: none;
+border: none;
+margin-bottom: 20px;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+text-shadow: 2px 2px 1px #5E7F8C;
+}

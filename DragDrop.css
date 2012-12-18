@@ -1,0 +1,17 @@
+﻿
+.sale div
+{
+	font-family: arial;
+	color: #fff;
+	position: relative;
+	width: 150px;
+    height : 70px;
+	border: 2px solid #fff;
+	text-align: center;
+	padding-top: 5px;
+	background-color: #5E7F8C;
+}
+
+
+
+

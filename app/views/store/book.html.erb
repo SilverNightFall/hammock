@@ -1,0 +1,18 @@
+<% if notice %>
+<p id="notice"><%= notice %></p>
+<% end %>
+<% @books.each do |book| %>
+<div class="entry">
+	<div><%= image_tag(book.image_url) %></div>
+	<h2 class="description"><%= bool.name %></h2>
+	<h3 class="description"><%= book.birthday %></h3>
+	<h4 class="description"><%= sanitize(book.poem) %></h4>
+	<div class="price_line">
+		<span class="price"><%= number_to_currency(book.price) %>
+			<%= button_to 'Add to Cart', line_items_path(book_id: book),
+			remote: true, id: 'submit' %>
+		</span>
+	</div>
+</div>
+<% end %>
+<%= will_paginate @books %>

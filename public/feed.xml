@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+  <rss version="2.0">
+    <channel>
+      <title>My Channel</title>
+      <link>http://www.mySite.com/</link>
+      <description>My News</description>
+      <language>en</language>
+      <copyright> 2006, Lucinda Dykes</copyright>
+    </channel>
+  </rss>
